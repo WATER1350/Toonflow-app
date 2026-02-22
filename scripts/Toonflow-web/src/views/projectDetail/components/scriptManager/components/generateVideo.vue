@@ -288,6 +288,7 @@ function handleDeleteConfig(configId: number) {
         .play-overlay {
           opacity: 1;
           z-index: 9999999999;
+          pointer-events: none;
         }
 
         .cover-image {
